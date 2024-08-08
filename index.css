@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-navbar{
+
+}
+
+.div-navbar{
+}
+
+
+.titulo-logo{
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    font-size: 25pt;
+}
+
+#carrosel{
+    margin: 5%;
+    border: 100px;
+    border-color: black;
+}
+
+.carrosel-altura{
+    width: 100%;
+    height: 600px;
+}
+
+/*-----------------------------------*/
+
+.header-navbar {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo na horizontal */
+    align-items: center; /* Alinha o conteúdo na vertical */
+    text-align: center; /* Centraliza o texto dentro do elemento pai */
+    margin-top: 50px;
+}
+
+.div-nav {
+    display: flex;
+    flex-direction: column; /* Coloca a imagem e o texto em coluna */
+    align-items: center; /* Centraliza os itens na horizontal */
+}
+
+.navbar-img {
+    max-width: 100%; /* Faz a imagem ser responsiva */
+    height: 80px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.titulo-logo {
+    font-size: 2vw; /* Tamanho de fonte responsivo baseado na largura da viewport */
+    margin: 10px 0; /* Espaçamento vertical entre a imagem e o texto */
+}
+
+
